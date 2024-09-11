@@ -6,9 +6,23 @@ from PIL import Image
 import sys
 import time
 import logging
+import json
 
 # Configurar el logging para que escriba en log.txt
 logging.basicConfig(filename='log.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+def load_options():
+    try:
+        with open('options.json', 'r') as f:
+            options = json.load(f)
+        logging.info(f"Opciones cargadas: {options}")
+        return options
+    except FileNotFoundError:
+        logging.error("El archivo options.json no se encontró.")
+        sys.exit(1)
+    except json.JSONDecodeError:
+        logging.error("Error al decodificar el archivo options.json.")
+        sys.exit(1)
 
 def process_url(url):
     # Verificar si la URL termina en '/paginated' y modificarla a '/cascade'
@@ -17,9 +31,9 @@ def process_url(url):
     logging.info(f"URL procesada: {url}")
     return url
 
-def download_images(title, chapter, url):
-    # Crear la carpeta con formato {title} - {chapter}
-    output_folder = f'{title} - {chapter}'
+def download_images(title, chapter, url, output_base_folder):
+    # Crear la carpeta con formato {title} - {chapter} en la ruta de descargas especificada
+    output_folder = os.path.join(output_base_folder, f'{title} - {chapter}')
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
         logging.info(f"Carpeta creada: {output_folder}")
@@ -106,8 +120,12 @@ if __name__ == '__main__':
 
     logging.info(f"Argumentos recibidos: Título={title}, Capítulo={chapter}, URL={input_url}")
     
+    # Cargar las opciones desde options.json
+    options = load_options()
+    ruta_descargas = options.get("ruta_descargas", ".")
+
     # Procesar la URL para verificar y modificar el final
     processed_url = process_url(input_url)
     
     # Descargar imágenes desde la URL procesada
-    download_images(title, chapter, processed_url)
+    download_images(title, chapter, processed_url, ruta_descargas)
