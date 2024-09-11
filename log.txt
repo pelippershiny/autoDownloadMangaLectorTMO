@@ -1,0 +1,131 @@
+2024-09-11 20:22:37,228 - INFO - Buscando resultados para el manga: AAA
+2024-09-11 20:22:37,228 - INFO - Buscando resultados...
+2024-09-11 20:22:38,162 - INFO - Resultados encontrados:
+2024-09-11 20:22:38,163 - INFO - Resultado 1: https://visortmo.com/library/manga/9831/AAA
+2024-09-11 20:22:39,211 - INFO - Manga seleccionado: https://visortmo.com/library/manga/9831/AAA
+2024-09-11 20:22:39,212 - INFO - El manga que has elegido es https://visortmo.com/library/manga/9831/AAA.
+2024-09-11 20:22:39,212 - INFO - Capítulos seleccionados: 1
+2024-09-11 20:22:39,212 - INFO - Obteniendo lista de capítulos...
+2024-09-11 20:22:39,212 - INFO - Ejecutando get_chapter_url.py con argumentos: ('https://visortmo.com/library/manga/9831/AAA',)
+Usando la URL del manga: https://visortmo.com/library/manga/9831/AAA
+Título del manga: AAA
+Archivo CSV temporal creado: temp_result.csv
+Archivo CSV temporal eliminado: temp_result.csv
+Archivo CSV final creado: result.csv
+2024-09-11 20:22:40,381 - INFO - Salida de get_chapter_url.py: Resultados exportados a 'result.csv'.
+
+2024-09-11 20:22:40,382 - INFO - Descargando capítulos seleccionados...
+2024-09-11 20:22:40,382 - INFO - Ejecutando redirect.py con argumentos: ('1',)
+Argumentos recibidos: ['1']
+Ejecutando get_ref_chapter.py con los argumentos: ['1']
+2024-09-11 20:22:40,923 - INFO - Argumentos recibidos: start_number=1, end_number=None
+2024-09-11 20:22:40,924 - INFO - Datos leídos correctamente desde result.csv
+2024-09-11 20:22:40,925 - INFO - Buscando capítulos con el número principal 1
+2024-09-11 20:22:40,925 - INFO - Capítulo encontrado: AAA - Capítulo 1.00 - https://visortmo.com/view_uploads/123813
+URLs obtenidas: ['AAA - Capítulo 1.00 - https://visortmo.com/view_uploads/123813']
+URL final para https://visortmo.com/view_uploads/123813: https://visortmo.com/viewer/5af3f989b0d69/paginated
+2024-09-11 20:22:42,006 - INFO - Argumentos recibidos: Título=AAA, Capítulo=Capítulo 1.00, URL=https://visortmo.com/viewer/5af3f989b0d69/paginated
+2024-09-11 20:22:42,006 - INFO - URL procesada: https://visortmo.com/viewer/5af3f989b0d69/cascade
+2024-09-11 20:22:42,007 - INFO - Carpeta creada: AAA - Capítulo 1.00
+2024-09-11 20:22:42,060 - INFO - Accediendo a la URL: https://visortmo.com/viewer/5af3f989b0d69/cascade
+2024-09-11 20:22:42,529 - INFO - Esperando 5 segundos para que las imágenes se carguen completamente...
+2024-09-11 20:22:47,529 - INFO - Intentando descargar la imagen 1 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/0.5-No-quites-los-creditos_102750.webp
+2024-09-11 20:22:48,343 - INFO - Imagen 1 descargada y convertida a PNG: AAA - Capítulo 1.00\1.png
+2024-09-11 20:22:48,344 - INFO - Intentando descargar la imagen 2 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/0_102750.webp
+2024-09-11 20:22:48,635 - INFO - Imagen 2 descargada y convertida a PNG: AAA - Capítulo 1.00\2.png
+2024-09-11 20:22:48,635 - INFO - Intentando descargar la imagen 3 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/1_102750.webp
+2024-09-11 20:22:48,874 - INFO - Imagen 3 descargada y convertida a PNG: AAA - Capítulo 1.00\3.png
+2024-09-11 20:22:48,874 - INFO - Intentando descargar la imagen 4 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/2_102750.webp
+2024-09-11 20:22:49,104 - INFO - Imagen 4 descargada y convertida a PNG: AAA - Capítulo 1.00\4.png
+2024-09-11 20:22:49,104 - INFO - Intentando descargar la imagen 5 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/3_102750.webp
+2024-09-11 20:22:49,336 - INFO - Imagen 5 descargada y convertida a PNG: AAA - Capítulo 1.00\5.png
+2024-09-11 20:22:49,337 - INFO - Intentando descargar la imagen 6 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/4_102750.webp
+2024-09-11 20:22:49,612 - INFO - Imagen 6 descargada y convertida a PNG: AAA - Capítulo 1.00\6.png
+2024-09-11 20:22:49,613 - INFO - Intentando descargar la imagen 7 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/5_102750.webp
+2024-09-11 20:22:49,818 - INFO - Imagen 7 descargada y convertida a PNG: AAA - Capítulo 1.00\7.png
+2024-09-11 20:22:49,818 - INFO - Intentando descargar la imagen 8 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/6_102750.webp
+2024-09-11 20:22:50,039 - INFO - Imagen 8 descargada y convertida a PNG: AAA - Capítulo 1.00\8.png
+2024-09-11 20:22:50,040 - INFO - Intentando descargar la imagen 9 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/7_102750.webp
+2024-09-11 20:22:50,251 - INFO - Imagen 9 descargada y convertida a PNG: AAA - Capítulo 1.00\9.png
+2024-09-11 20:22:50,252 - INFO - Intentando descargar la imagen 10 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/8_102750.webp
+2024-09-11 20:22:50,558 - INFO - Imagen 10 descargada y convertida a PNG: AAA - Capítulo 1.00\10.png
+2024-09-11 20:22:50,558 - INFO - Intentando descargar la imagen 11 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/9_102750.webp
+2024-09-11 20:22:50,777 - INFO - Imagen 11 descargada y convertida a PNG: AAA - Capítulo 1.00\11.png
+2024-09-11 20:22:50,777 - INFO - Intentando descargar la imagen 12 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/10_102750.webp
+2024-09-11 20:22:51,037 - INFO - Imagen 12 descargada y convertida a PNG: AAA - Capítulo 1.00\12.png
+2024-09-11 20:22:51,037 - INFO - Intentando descargar la imagen 13 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/11_102750.webp
+2024-09-11 20:22:51,254 - INFO - Imagen 13 descargada y convertida a PNG: AAA - Capítulo 1.00\13.png
+2024-09-11 20:22:51,254 - INFO - Intentando descargar la imagen 14 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/12_102750.webp
+2024-09-11 20:22:51,497 - INFO - Imagen 14 descargada y convertida a PNG: AAA - Capítulo 1.00\14.png
+2024-09-11 20:22:51,498 - INFO - Intentando descargar la imagen 15 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/13_102750.webp
+2024-09-11 20:22:51,726 - INFO - Imagen 15 descargada y convertida a PNG: AAA - Capítulo 1.00\15.png
+2024-09-11 20:22:51,726 - INFO - Intentando descargar la imagen 16 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/14_102750.webp
+2024-09-11 20:22:51,958 - INFO - Imagen 16 descargada y convertida a PNG: AAA - Capítulo 1.00\16.png
+2024-09-11 20:22:51,958 - INFO - Intentando descargar la imagen 17 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/15_102750.webp
+2024-09-11 20:22:52,188 - INFO - Imagen 17 descargada y convertida a PNG: AAA - Capítulo 1.00\17.png
+2024-09-11 20:22:52,188 - INFO - Intentando descargar la imagen 18 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/16_102750.webp
+2024-09-11 20:22:52,413 - INFO - Imagen 18 descargada y convertida a PNG: AAA - Capítulo 1.00\18.png
+2024-09-11 20:22:52,414 - INFO - Intentando descargar la imagen 19 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/17_102750.webp
+2024-09-11 20:22:52,644 - INFO - Imagen 19 descargada y convertida a PNG: AAA - Capítulo 1.00\19.png
+2024-09-11 20:22:52,645 - INFO - Intentando descargar la imagen 20 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/18_102750.webp
+2024-09-11 20:22:52,859 - INFO - Imagen 20 descargada y convertida a PNG: AAA - Capítulo 1.00\20.png
+2024-09-11 20:22:52,859 - INFO - Intentando descargar la imagen 21 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/19_102750.webp
+2024-09-11 20:22:53,080 - INFO - Imagen 21 descargada y convertida a PNG: AAA - Capítulo 1.00\21.png
+2024-09-11 20:22:53,081 - INFO - Intentando descargar la imagen 22 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/20_102750.webp
+2024-09-11 20:22:53,328 - INFO - Imagen 22 descargada y convertida a PNG: AAA - Capítulo 1.00\22.png
+2024-09-11 20:22:53,329 - INFO - Intentando descargar la imagen 23 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/21_102750.webp
+2024-09-11 20:22:53,583 - INFO - Imagen 23 descargada y convertida a PNG: AAA - Capítulo 1.00\23.png
+2024-09-11 20:22:53,583 - INFO - Intentando descargar la imagen 24 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/22_102750.webp
+2024-09-11 20:22:53,808 - INFO - Imagen 24 descargada y convertida a PNG: AAA - Capítulo 1.00\24.png
+2024-09-11 20:22:53,809 - INFO - Intentando descargar la imagen 25 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/23_102750.webp
+2024-09-11 20:22:54,045 - INFO - Imagen 25 descargada y convertida a PNG: AAA - Capítulo 1.00\25.png
+2024-09-11 20:22:54,045 - INFO - Intentando descargar la imagen 26 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/24_102750.webp
+2024-09-11 20:22:54,257 - INFO - Imagen 26 descargada y convertida a PNG: AAA - Capítulo 1.00\26.png
+2024-09-11 20:22:54,258 - INFO - Intentando descargar la imagen 27 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/25_102750.webp
+2024-09-11 20:22:54,487 - INFO - Imagen 27 descargada y convertida a PNG: AAA - Capítulo 1.00\27.png
+2024-09-11 20:22:54,487 - INFO - Intentando descargar la imagen 28 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/26_102750.webp
+2024-09-11 20:22:54,734 - INFO - Imagen 28 descargada y convertida a PNG: AAA - Capítulo 1.00\28.png
+2024-09-11 20:22:54,735 - INFO - Intentando descargar la imagen 29 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/27_102750.webp
+2024-09-11 20:22:54,949 - INFO - Imagen 29 descargada y convertida a PNG: AAA - Capítulo 1.00\29.png
+2024-09-11 20:22:54,949 - INFO - Intentando descargar la imagen 30 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/28_102750.webp
+2024-09-11 20:22:55,157 - INFO - Imagen 30 descargada y convertida a PNG: AAA - Capítulo 1.00\30.png
+2024-09-11 20:22:55,157 - INFO - Intentando descargar la imagen 31 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/29_102750.webp
+2024-09-11 20:22:55,404 - INFO - Imagen 31 descargada y convertida a PNG: AAA - Capítulo 1.00\31.png
+2024-09-11 20:22:55,404 - INFO - Intentando descargar la imagen 32 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/30_102750.webp
+2024-09-11 20:22:55,636 - INFO - Imagen 32 descargada y convertida a PNG: AAA - Capítulo 1.00\32.png
+2024-09-11 20:22:55,636 - INFO - Intentando descargar la imagen 33 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/31_102750.webp
+2024-09-11 20:22:55,879 - INFO - Imagen 33 descargada y convertida a PNG: AAA - Capítulo 1.00\33.png
+2024-09-11 20:22:55,879 - INFO - Intentando descargar la imagen 34 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/32_102750.webp
+2024-09-11 20:22:56,125 - INFO - Imagen 34 descargada y convertida a PNG: AAA - Capítulo 1.00\34.png
+2024-09-11 20:22:56,125 - INFO - Intentando descargar la imagen 35 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/33_102750.webp
+2024-09-11 20:22:56,367 - INFO - Imagen 35 descargada y convertida a PNG: AAA - Capítulo 1.00\35.png
+2024-09-11 20:22:56,368 - INFO - Intentando descargar la imagen 36 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/34_102750.webp
+2024-09-11 20:22:56,620 - INFO - Imagen 36 descargada y convertida a PNG: AAA - Capítulo 1.00\36.png
+2024-09-11 20:22:56,620 - INFO - Intentando descargar la imagen 37 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/35_102750.webp
+2024-09-11 20:22:56,850 - INFO - Imagen 37 descargada y convertida a PNG: AAA - Capítulo 1.00\37.png
+2024-09-11 20:22:56,851 - INFO - Intentando descargar la imagen 38 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/36_102750.webp
+2024-09-11 20:22:57,089 - INFO - Imagen 38 descargada y convertida a PNG: AAA - Capítulo 1.00\38.png
+2024-09-11 20:22:57,089 - INFO - Intentando descargar la imagen 39 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/37_102750.webp
+2024-09-11 20:22:57,319 - INFO - Imagen 39 descargada y convertida a PNG: AAA - Capítulo 1.00\39.png
+2024-09-11 20:22:57,320 - INFO - Intentando descargar la imagen 40 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/38_102750.webp
+2024-09-11 20:22:57,547 - INFO - Imagen 40 descargada y convertida a PNG: AAA - Capítulo 1.00\40.png
+2024-09-11 20:22:57,547 - INFO - Intentando descargar la imagen 41 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/39_102750.webp
+2024-09-11 20:22:57,801 - INFO - Imagen 41 descargada y convertida a PNG: AAA - Capítulo 1.00\41.png
+2024-09-11 20:22:57,802 - INFO - Intentando descargar la imagen 42 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/40_102750.webp
+2024-09-11 20:22:58,043 - INFO - Imagen 42 descargada y convertida a PNG: AAA - Capítulo 1.00\42.png
+2024-09-11 20:22:58,044 - INFO - Intentando descargar la imagen 43 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/41_102750.webp
+2024-09-11 20:22:58,387 - INFO - Imagen 43 descargada y convertida a PNG: AAA - Capítulo 1.00\43.png
+2024-09-11 20:22:58,388 - INFO - Intentando descargar la imagen 44 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/42_102750.webp
+2024-09-11 20:22:58,631 - INFO - Imagen 44 descargada y convertida a PNG: AAA - Capítulo 1.00\44.png
+2024-09-11 20:22:58,631 - INFO - Intentando descargar la imagen 45 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/43_102750.webp
+2024-09-11 20:22:58,829 - INFO - Imagen 45 descargada y convertida a PNG: AAA - Capítulo 1.00\45.png
+2024-09-11 20:22:58,829 - INFO - Intentando descargar la imagen 46 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/44_102750.webp
+2024-09-11 20:22:59,178 - INFO - Imagen 46 descargada y convertida a PNG: AAA - Capítulo 1.00\46.png
+2024-09-11 20:22:59,178 - INFO - Intentando descargar la imagen 47 de la URL: https://imgtmo.com/uploads/20150906/5af3f989b0d69/45_102750.webp
+2024-09-11 20:22:59,443 - INFO - Imagen 47 descargada y convertida a PNG: AAA - Capítulo 1.00\47.png
+2024-09-11 20:22:59,444 - INFO - Descarga y conversión completada. Las imágenes se guardaron en la carpeta 'AAA - Capítulo 1.00'.
+2024-09-11 20:23:01,131 - INFO - Carpeta comprimida: C:\Users\Vicente\Documents\Scripts Python\autoDownloadMangaLectorTMO\AAA - Capítulo 1.00.zip
+Descarga completada para la URL: https://visortmo.com/viewer/5af3f989b0d69/paginated
+2024-09-11 20:23:01,195 - INFO - Salida de redirect.py: Redirección exitosa!
+
+2024-09-11 20:23:01,195 - INFO - Proceso completado con éxito.
