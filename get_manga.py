@@ -65,7 +65,17 @@ def main():
         auto_mode = True
     else:
         manga_name = input("Ingrese el nombre del manga: ")
-        chapters_input = input("¿Qué capitulo/s quieres descargar? Si quieres descargar sólo uno en específico, indica el número del capítulo. Si quieres de un capítulo a otro, especifica el número de capítulo desde, espacio, número de capítulo hasta. Si quieres todos, pulsa intro, sin escribir nada más: ")
+
+        # Mensaje para pedir los capítulos al usuario
+        print("¿Qué capítulos quieres descargar?")
+        print("Si es uno, escribe el nombre del capítulo. (Ej: Para descargar el 10, escribe '10')")
+        print("Si son varios, escribe el primer número del capítulo, espacio, el último número del capítulo.")
+        print("(Ej: Para descargar del 10 al 20, escribe '10 20')")
+        print("Si son varios y quieres desde un número hasta todos los que haya disponibles, escribe el primer número del capítulo, espacio, MAX.")
+        print("(Ej: Para descargar del 200 en adelante, escribe '200 MAX')")
+        print("Si son todos, pulsa intro.")
+        
+        chapters_input = input("Introduce tu selección: ")
         auto_mode = False
     
     logger.info(f"Buscando resultados para el manga: {manga_name}")
